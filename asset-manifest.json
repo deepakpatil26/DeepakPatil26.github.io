@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.33a43822.css",
-    "main.js": "/static/js/main.d5dfeac5.js",
+    "main.js": "/static/js/main.65ae18d4.js",
     "static/js/787.9887095d.chunk.js": "/static/js/787.9887095d.chunk.js",
     "static/media/DeepakPatil_Resume.pdf": "/static/media/DeepakPatil_Resume.18b153e9fea51eb1bcbe.pdf",
     "static/media/girl2.svg": "/static/media/girl2.30853a9ba7b2f3f93abdd146e37dafae.svg",
@@ -90,11 +90,11 @@
     "static/media/vuetifyjs.svg": "/static/media/vuetifyjs.3848fcff351a0cbc94e75362594d2b25.svg",
     "static/media/bulma.svg": "/static/media/bulma.12ecb7941234000a2fe38a48cbce30da.svg",
     "main.33a43822.css.map": "/static/css/main.33a43822.css.map",
-    "main.d5dfeac5.js.map": "/static/js/main.d5dfeac5.js.map",
+    "main.65ae18d4.js.map": "/static/js/main.65ae18d4.js.map",
     "787.9887095d.chunk.js.map": "/static/js/787.9887095d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.33a43822.css",
-    "static/js/main.d5dfeac5.js"
+    "static/js/main.65ae18d4.js"
   ]
 }
