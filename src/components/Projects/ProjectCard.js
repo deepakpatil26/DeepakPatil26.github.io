@@ -43,14 +43,6 @@ const ProjectCard = () => {
 
   const projects = [
     {
-      img: "/projects/himalaya.png",
-      name: "Himalaya-Usa Clone.",
-      tech: ["HTML", " CSS", "JavaScript", " Material-UI", " REST API", "Icon"],
-      link: "https://630c7ea5fe01ec7d8a7acb5f--aquamarine-khapse-1fb54c.netlify.app/",
-      dec: " Himalaya USA is a website selling wellness products in the United States of America.",
-      code: "https://github.com/raj2820/Himalya-USA-Clone",
-    },
-    {
       img: "/projects/weefit.png",
       name: "WEFIT-Clone",
       tech: [
