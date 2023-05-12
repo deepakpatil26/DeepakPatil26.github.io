@@ -16,21 +16,21 @@ function Footer() {
       <div>
         <a
           className={styles.socialIcon}
-          href="https://github.com/DeepakPatil26"
+          href="https://github.com/deepakpatil26"
           target="_blank"
         >
           <FiGithub />
         </a>
         <a
           className={styles.socialIcon}
-          href="https://www.linkedin.com/in/deepak-patil-0949421b3/"
+          href="https://www.linkedin.com/in/deepakpatil26/"
           target="_blank"
         >
           <FiLinkedin />
         </a>
         <a
           className={styles.socialIcon}
-          href="https://www.instagram.com/"
+          href="https://www.instagram.com/deepak_patil.2698/"
           target="_blank"
         >
           <FiInstagram />

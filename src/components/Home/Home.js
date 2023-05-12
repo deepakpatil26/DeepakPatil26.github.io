@@ -13,7 +13,8 @@ const Home = () => {
           <div className={styles.cover}></div>
           <img
             className={styles.image}
-            src={process.env.PUBLIC_URL + "/profile/profilePic.png"} height={"300px"}
+            src={process.env.PUBLIC_URL + "/profile/profilePic.png"}
+            height={"300px"}
           />
         </div>
       </div>
@@ -29,16 +30,16 @@ const Home = () => {
           JavaScript and React.
         </p>
         <div className={styles.social_icons}>
-          <a href="https://github.com/DeepakPatil26" target="_blank">
+          <a href="https://github.com/deepakpatil26" target="_blank">
             <FiGithub />
           </a>
-          <a
-            href="https://www.linkedin.com/in/deepak-patil-0949421b3/"
-            target="_blank"
-          >
+          <a href="https://www.linkedin.com/in/deepakpatil26/" target="_blank">
             <FiLinkedin />
           </a>
-          <a href="https://www.instagram.com/" target="_blank">
+          <a
+            href="https://www.instagram.com/deepak_patil.2698/"
+            target="_blank"
+          >
             <FiInstagram />
           </a>
         </div>

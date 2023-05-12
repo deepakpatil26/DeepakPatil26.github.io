@@ -19,8 +19,8 @@ const GitHubStats = () => {
 
       <div className={styles.stats_container}>
         <img
-          src="https://github-profile-trophy.vercel.app/?username=DeepakPatil26&theme=algolia"
-          alt="DeepakPatil26"
+          src="https://github-profile-trophy.vercel.app/?username=deepakpatil26&theme=algolia"
+          alt="deepakpatil26"
         />
       </div>
 
@@ -42,7 +42,7 @@ const GitHubStats = () => {
           fontSize={19}
           blockMargin={5}
           blockRadius={100}
-          username="DeepakPatil26"
+          username="deepakpatil26"
         >
           <ReactTooltip delayShow={15} html />
         </GitHubCalendar>
@@ -76,27 +76,27 @@ const GitHubStats = () => {
         </div>
       </div>
 
-      <div className="GitShivam_Stat">
+      <div className="GitDeepak_Stat">
         <img
           className="box"
           align="center"
-          src="https://github-readme-stats.vercel.app/api?username=DeepakPatil26&theme=vision-friendly-dark&show_icons=true&locale=en"
-          alt="DeepakPatil26"
+          src="https://github-readme-stats.vercel.app/api?username=deepakpatil26&theme=vision-friendly-dark&show_icons=true&locale=en"
+          alt="deepakpatil26"
         />
 
         <img
           className="box"
           align="center"
-          src="https://github-readme-streak-stats.herokuapp.com/?user=DeepakPatil26&theme=vision-friendly-dark"
-          alt="DeepakPatil26"
+          src="https://github-readme-streak-stats.herokuapp.com/?user=deepakpatil26&theme=vision-friendly-dark"
+          alt="deepakpatil26"
         />
       </div>
 
       {/* <div className={styles.githubCalender}>
-        <img src="https://github-readme-activity-graph.cyclic.app/graph?username=DeepakPatil26&bg_color=000000&color=858585&line=787878&point=545454&area=true&hide_border=true" alt="DeepakPatil26" />
+        <img src="https://github-readme-activity-graph.cyclic.app/graph?username=deepakpatil26&bg_color=000000&color=858585&line=787878&point=545454&area=true&hide_border=true" alt="deepakpatil26" />
       </div> */}
 
-      {/*(https://github-readme-activity-graph.cyclic.app/graph?username=DeepakPatil26&bg_color=000000&color=c8b1fb&line=7f2dfb&point=b3b3b3&area=true&hide_border=true)] */}
+      {/*(https://github-readme-activity-graph.cyclic.app/graph?username=deepakpatil26&bg_color=000000&color=c8b1fb&line=7f2dfb&point=b3b3b3&area=true&hide_border=true)] */}
     </section>
   );
 };
