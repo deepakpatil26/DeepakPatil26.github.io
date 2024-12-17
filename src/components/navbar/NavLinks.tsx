@@ -1,7 +1,7 @@
-import React from 'react';
-import { NavItem } from './NavItem';
-import { ResumeButton } from './ResumeButton';
-import { navigationItems } from './config';
+import React from "react";
+import { NavItem } from "./NavItem";
+import { ResumeButton } from "./ResumeButton";
+import { navigationItems } from "./config";
 
 export const NavLinks = () => {
   return (
