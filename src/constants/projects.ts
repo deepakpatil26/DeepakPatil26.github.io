@@ -35,13 +35,13 @@ export const projects = [
     demo: 'https://spiffy-farm-6274.vercel.app/',
   },
   {
-    title: 'BoatLifeStyle.com-Clone',
+    title: 'FocusFlow: Pomodoro & Distraction Blocker with Session Analytics',
     description:
-      'boAt is your digital shopping assistant dedicated to saving you time, money and assure you get a quality product.',
-    image: '/boAt.png',
-    techStack: ['JavaScript', 'HTML', 'CSS'],
-    github: 'https://github.com/deepakpatil26/BoatLifeStyle-clone',
-    demo: 'https://deluxe-sunshine-85cb19.netlify.app/',
+      'FocusFlow is a powerful productivity tool designed to help you master your focus using the Pomodoro technique. It features a distraction blocker, session analytics, and a user-friendly interface to enhance your productivity.',
+    image: '/focus-flow.png',
+    techStack: ['React', 'Typescript', 'Tailwind CSS', 'Firebase'],
+    github: 'https://github.com/deepakpatil26/focus-flow',
+    demo: 'https://focus-flow-three-psi.vercel.app/',
   },
   {
     title: 'Cult.fit Clone',
