@@ -33,27 +33,27 @@ This is a cutting-edge personal portfolio website crafted with modern web techno
 
 ```bash
    git clone https://github.com/deepakpatil26/DeepakPatil26.github.io
-   ```
+```
 
 2. Navigate to the project directory:
 
 ```bash
    cd your-portfolio
-   ```
+```
 
 3. Install dependencies:
 
 ```bash
    npm install
-   ```
+```
 
 4. Start the development server:
 
 ```bash
    npm run dev
-   ```
+```
 
-5. Open your browser and visit http://localhost:5173
+5. Open your browser and visit [http://localhost:5173](http://localhost:5173)
 
 ## 🏗 Production Build
 
@@ -68,10 +68,10 @@ Optimized files will be generated in the `dist` folder, ready for deployment.
 ## 🌐 Deployment
 
 Recommended platforms for deployment:
+
 - Netlify
 - Vercel
 - GitHub Pages
-
 
 ## 📸 Screenshots
 
@@ -91,4 +91,4 @@ Give a ⭐️ if this project helped you!
 
 ---
 
-**Built with ❤️ by Deepak Patil**
+### Built with ❤️ by Deepak Patil

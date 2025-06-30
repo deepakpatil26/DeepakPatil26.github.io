@@ -1,4 +1,3 @@
-import React from "react";
 import ProjectCard from "./projects/ProjectCard";
 import { projects } from "../constants/projects";
 

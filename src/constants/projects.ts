@@ -32,7 +32,7 @@ export const projects = [
       'Tailwind',
     ],
     github: 'https://github.com/deepakpatil26/spiffy-farm-6274',
-    demo: 'https://outfitstore.vercel.app/',
+    demo: 'https://spiffy-farm-6274.vercel.app/',
   },
   {
     title: 'BoatLifeStyle.com-Clone',
