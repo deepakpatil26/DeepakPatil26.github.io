@@ -44,13 +44,20 @@ export const projects = [
     demo: 'https://focus-flow-three-psi.vercel.app/',
   },
   {
-    title: 'Cult.fit Clone',
+    title: 'CodeAssist AI: A VS Code Pair Programmer Extension',
     description:
-      'The project is a clone of Cult.fit which is a health and fitness website',
-    image: '/CultFit.png',
-    techStack: ['React', 'JavaScript', 'HTML', 'CSS'],
-    github: 'https://github.com/deepakpatil26/acrid-land-8684',
-    demo: 'https://astounding-scone-73c2d5.netlify.app/',
+      'An intelligent VS Code extension that brings an AI pair programmer directly into your editor. Features context-aware chat with file attachments (@-mentions), inline code suggestions, and a modern web-based UI built with Next.js running inside a VS Code webview.',
+    image: '/codeassist-ai.png',
+    techStack: [
+      'VS Code API',
+      'Next.js',
+      'React',
+      'TypeScript',
+      'Genkit',
+      'Tailwind CSS',
+    ],
+    github: 'https://github.com/deepakpatil26/codeassist-chat-vscode-extension',
+    demo: 'https://codeassist-chat-app.vercel.app/',
   },
   {
     title: 'Recipe App',
