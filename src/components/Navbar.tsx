@@ -55,7 +55,7 @@ export const Navbar = () => {
                 Contact
               </a>
               <a
-                href="/resume.pdf"
+                href="/DeepakPatil_Resume-1.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="nav-link resume bg-blue-600 dark:bg-blue-500 text-white px-4 py-2 rounded-md hover:opacity-90"

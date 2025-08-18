@@ -46,11 +46,11 @@ const Contact = () => {
             <div className="flex items-center space-x-4">
               <Linkedin className="w-6 h-6 text-blue-600 dark:text-blue-400" />
               <a
-                href="https://linkedin.com/in/deepak-patil-28542b280"
+                href="https://linkedin.com/in/deepakpatil2612"
                 id="contact-linkedin"
                 className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
               >
-                linkedin.com/in/deepak-patil-28542b280
+                linkedin.com/in/deepakpatil2612
               </a>
             </div>
           </div>

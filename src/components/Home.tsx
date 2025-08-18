@@ -23,7 +23,7 @@ const Home = () => {
             </p>
             <div className="flex space-x-4 mb-8">
               <a
-                href="https://drive.google.com/file/d/1mxW0X_GisxnsMBqmixCAKPW6x63aJyjd/view?usp=sharing"
+                href="https://drive.google.com/file/d/1OeqBZAmzwtP52YG0wyd7KPWqcLTUHxZr/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 id="resume-link-2"
