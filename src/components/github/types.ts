@@ -8,4 +8,4 @@ export interface StatsConfig {
   alt: string;
 }
 
-export interface StatsCardProps extends StatsConfig {}
+export type StatsCardProps = StatsConfig;
