@@ -1,5 +1,22 @@
 export const projects = [
   {
+    title: '📚 StudyBuddy AI – AI-Powered Study Assistant',
+    description:
+      'An AI-powered study assistant that helps students with personalized learning experiences, including flashcards, quizzes, and study plans.',
+    image: '/study-buddy-ai.png',
+    techStack: [
+      'React',
+      'Vite',
+      'TypeScript',
+      'Tailwind CSS',
+      'OpenAI API',
+      'Firebase Authentication + Firestore',
+      'Vercel AI SDK',
+    ],
+    github: 'https://github.com/deepakpatil26/study-boost',
+    demo: 'https://study-boost-delta.vercel.app/',
+  },
+  {
     title: 'Koolz.com',
     description:
       'The Koolz.com Clone is a fully functional e-commerce website that allows users to browse and purchase a variety of products.',
@@ -67,13 +84,5 @@ export const projects = [
     techStack: ['React', 'JavaScript', 'HTML', 'Tailwind CSS'],
     github: 'https://github.com/deepakpatil26/react-recipe-app',
     demo: 'https://deepakpatil26.github.io/react-recipe-app/',
-  },
-  {
-    title: 'Zara.com Clone',
-    description: 'A Spanish multi-national retail clothing chain.',
-    image: '/Zara.png',
-    techStack: ['React', 'JavaScript', 'HTML', 'CSS'],
-    github: 'https://github.com/deepakpatil26/moldy-care-8778',
-    demo: 'https://quiet-begonia-859735.netlify.app/',
   },
 ];
