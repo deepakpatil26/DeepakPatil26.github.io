@@ -58,7 +58,7 @@ export const projects = [
     title: 'Koolz.com',
     description:
       'The Koolz.com Clone is a fully functional e-commerce website that allows users to browse and purchase a variety of products.',
-    image: '/Koolz.png',
+    image: '/koolz/Koolz.png',
     techStack: [
       'React JS',
       'TypeScript',
@@ -76,7 +76,7 @@ export const projects = [
     title: 'FocusFlow: Pomodoro & Distraction Blocker with Session Analytics',
     description:
       'FocusFlow is a powerful productivity tool designed to help you master your focus using the Pomodoro technique. It features a distraction blocker, session analytics, and a user-friendly interface to enhance your productivity.',
-    image: '/focus-flow.png',
+    image: '/focus-flow/focus-flow.png',
     techStack: ['React', 'Typescript', 'Tailwind CSS', 'Firebase'],
     github: 'https://github.com/deepakpatil26/focus-flow',
     demo: 'https://focus-flow-three-psi.vercel.app/',
@@ -101,7 +101,7 @@ export const projects = [
     title: 'Recipe App',
     description:
       '🍳 A modern recipe discovery app built with React and Spoonacular API. Features cuisine filtering, recipe search, and detailed cooking instructions. Responsive design for all devices.',
-    image: 'recipe-home.png',
+    image: 'recipe-app/recipe-home.png',
     techStack: ['React', 'JavaScript', 'HTML', 'Tailwind CSS'],
     github: 'https://github.com/deepakpatil26/react-recipe-app',
     demo: 'https://deepakpatil26.github.io/react-recipe-app/',
