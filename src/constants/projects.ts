@@ -3,7 +3,7 @@ export const projects = [
     title: '📚 StudyBuddy AI – AI-Powered Study Assistant',
     description:
       'An AI-powered study assistant that helps students with personalized learning experiences, including flashcards, quizzes, and study plans.',
-    image: '/study-buddy-ai.png',
+    image: 'study-buddy-ai/study-buddy-ai.png',
     techStack: [
       'React',
       'Vite',
@@ -15,23 +15,6 @@ export const projects = [
     ],
     github: 'https://github.com/deepakpatil26/study-boost',
     demo: 'https://study-boost-delta.vercel.app/',
-  },
-  {
-    title: 'Koolz.com',
-    description:
-      'The Koolz.com Clone is a fully functional e-commerce website that allows users to browse and purchase a variety of products.',
-    image: '/Koolz.png',
-    techStack: [
-      'React JS',
-      'TypeScript',
-      'Redux',
-      'Axios',
-      'Redux-thunk',
-      'React-Router',
-      'Chakra-UI',
-    ],
-    github: 'https://github.com/deepakpatil26/koovs-Website-Clone',
-    demo: 'https://koolz.vercel.app/',
   },
   {
     title: 'Lifestyles Stores clone',
@@ -51,6 +34,44 @@ export const projects = [
     github: 'https://github.com/deepakpatil26/spiffy-farm-6274',
     demo: 'https://spiffy-farm-6274.vercel.app/',
   },
+  {
+    title: 'DocuNova 🚀 Intelligent RAG-Powered Knowledge Assistant',
+    description:
+      'DocuNova is a high-performance, enterprise-ready RAG (Retrieval-Augmented Generation) assistant that transforms your static documents into an interactive knowledge base. Ask questions, get grounded answers with citations, and manage your usage with a sleek, modern interface.',
+
+    image: '/DocuNova/HomePage-Dark.png',
+    techStack: [
+      'Python',
+      'SQLAlchemy',
+      'TypeScript',
+      'SlowAPI',
+      'Tailwind CSS',
+      'OpenAI API',
+      'Firebase Authentication + Firestore',
+      'Vercel AI SDK',
+      'Qdrant',
+    ],
+    github: 'https://github.com/deepakpatil26/docunova',
+    demo: 'https://docu-nova.vercel.app/',
+  },
+  {
+    title: 'Koolz.com',
+    description:
+      'The Koolz.com Clone is a fully functional e-commerce website that allows users to browse and purchase a variety of products.',
+    image: '/Koolz.png',
+    techStack: [
+      'React JS',
+      'TypeScript',
+      'Redux',
+      'Axios',
+      'Redux-thunk',
+      'React-Router',
+      'Chakra-UI',
+    ],
+    github: 'https://github.com/deepakpatil26/koovs-Website-Clone',
+    demo: 'https://koolz.vercel.app/',
+  },
+
   {
     title: 'FocusFlow: Pomodoro & Distraction Blocker with Session Analytics',
     description:

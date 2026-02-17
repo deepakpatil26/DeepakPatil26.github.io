@@ -3,6 +3,7 @@ import GitHubCalendar from "./GitHubCalendar";
 import { useTheme } from "../../context/ThemeContext";
 import StatsCard from "./StatsCard";
 import { StatsConfig } from "./types";
+import ErrorBoundary from "./ErrorBoundary";
 
 const GitHubStats: React.FC<{ username: string }> = ({ username }) => {
   const { theme } = useTheme();
@@ -11,23 +12,20 @@ const GitHubStats: React.FC<{ username: string }> = ({ username }) => {
   const statsConfigs: StatsConfig[] = [
     {
       id: "github-streak-stats",
-      src: `https://github-readme-streak-stats.herokuapp.com/?user=${username}&theme=${
-        isDark ? "dark" : "light"
-      }`,
+      src: `https://github-readme-streak-stats.herokuapp.com/?user=${username}&theme=${isDark ? "dark" : "light"
+        }`,
       alt: "GitHub Streak Stats",
     },
     {
       id: "github-top-langs",
-      src: `https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&theme=${
-        isDark ? "dark" : "light"
-      }`,
+      src: `https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&theme=${isDark ? "dark" : "light"
+        }`,
       alt: "Top Languages",
     },
     {
       id: "github-stats-card",
-      src: `https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&theme=${
-        isDark ? "dark" : "light"
-      }`,
+      src: `https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&theme=${isDark ? "dark" : "light"
+        }`,
       alt: "GitHub Stats",
     },
   ];
@@ -39,15 +37,17 @@ const GitHubStats: React.FC<{ username: string }> = ({ username }) => {
           GitHub Statistics
         </h2>
 
-        <div className="space-y-8">
-          <GitHubCalendar username={username} />
+        <ErrorBoundary>
+          <div className="space-y-8">
+            <GitHubCalendar username={username} />
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {statsConfigs.map((config) => (
-              <StatsCard key={config.id} {...config} />
-            ))}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {statsConfigs.map((config) => (
+                <StatsCard key={config.id} {...config} />
+              ))}
+            </div>
           </div>
-        </div>
+        </ErrorBoundary>
       </div>
     </section>
   );

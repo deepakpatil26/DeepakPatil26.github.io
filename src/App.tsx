@@ -11,7 +11,7 @@ import { ThemeProvider } from "./context/ThemeContext";
 function App() {
   return (
     <ThemeProvider>
-      <div className="bg-primary-light dark:bg-primary-dark transition-colors duration-200">
+      <div className="bg-white dark:bg-gray-900 transition-theme min-h-screen">
         <Navbar />
         <main>
           <Home />
