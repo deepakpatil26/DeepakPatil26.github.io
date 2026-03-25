@@ -66,10 +66,12 @@ Optimized files will be generated in the `dist` folder, ready for deployment.
 
 ## 🌐 Deployment
 
-The portfolio is automatically deployed to **GitHub Pages** via GitHub Actions.
+## 🌐 Deployment
+
+The portfolio is deployed to **GitHub Pages**.
 
 - **URL**: [https://deepakpatil26.github.io/](https://deepakpatil26.github.io/)
-- **CI/CD**: Managed through `.github/workflows/deploy.yml`
+- **Command**: Deploy manually using `npm run deploy`
 
 ## 📸 Screenshots
 
