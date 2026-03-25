@@ -41,7 +41,7 @@ export const projects = [
     title: 'FocusFlow: Pomodoro & Distraction Blocker with Session Analytics',
     description:
       'FocusFlow is a powerful productivity tool designed to help you master your focus using the Pomodoro technique. It features a distraction blocker, session analytics, and a user-friendly interface to enhance your productivity.',
-    image: '/focus-flow/focus-flow.png',
+    image: '/FocusFlowApp/focus-flow.png',
     techStack: ['React', 'Typescript', 'Tailwind CSS', 'Firebase'],
     github: 'https://github.com/deepakpatil26/focus-flow',
     demo: 'https://focus-flow-three-psi.vercel.app/',
