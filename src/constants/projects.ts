@@ -1,40 +1,5 @@
 export const projects = [
   {
-    title: '📚 StudyBuddy AI – AI-Powered Study Assistant',
-    description:
-      'An AI-powered study assistant that helps students with personalized learning experiences, including flashcards, quizzes, and study plans.',
-    image: 'study-buddy-ai/study-buddy-ai.png',
-    techStack: [
-      'React',
-      'Vite',
-      'TypeScript',
-      'Tailwind CSS',
-      'OpenAI API',
-      'Firebase Authentication + Firestore',
-      'Vercel AI SDK',
-    ],
-    github: 'https://github.com/deepakpatil26/study-boost',
-    demo: 'https://study-boost-delta.vercel.app/',
-  },
-  {
-    title: 'Lifestyles Stores clone',
-    description:
-      "Lifestyle is India's leading fashion destination for the latest trends. Part of Dubai based retail and hospitality conglomerate",
-    image: '/LifeStyleStores.png',
-    techStack: [
-      'React',
-      'Redux',
-      'Axios',
-      'JavaScript',
-      'HTML',
-      'CSS',
-      'Material-UI',
-      'Tailwind',
-    ],
-    github: 'https://github.com/deepakpatil26/spiffy-farm-6274',
-    demo: 'https://spiffy-farm-6274.vercel.app/',
-  },
-  {
     title: 'DocuNova 🚀 Intelligent RAG-Powered Knowledge Assistant',
     description:
       'DocuNova is a high-performance, enterprise-ready RAG (Retrieval-Augmented Generation) assistant that transforms your static documents into an interactive knowledge base. Ask questions, get grounded answers with citations, and manage your usage with a sleek, modern interface.',
@@ -55,21 +20,21 @@ export const projects = [
     demo: 'https://docu-nova.vercel.app/',
   },
   {
-    title: 'Koolz.com',
+    title: 'CodeClarity Pro: AI-Powered Code Analysis',
     description:
-      'The Koolz.com Clone is a fully functional e-commerce website that allows users to browse and purchase a variety of products.',
-    image: '/koolz/Koolz.png',
+      'Advanced AI-powered code analysis tool that understands context, identifies bugs, and suggests modern best practices. Features real-time feedback and security audits.',
+    image: '/CodeClarity-Pro/homepage.png',
     techStack: [
-      'React JS',
-      'TypeScript',
-      'Redux',
-      'Axios',
-      'Redux-thunk',
-      'React-Router',
-      'Chakra-UI',
+      'Next.js 15',
+      'Genkit',
+      'Groq LPU™',
+      'Firebase',
+      'Redis (BullMQ)',
+      'Tailwind CSS',
+      'Framer Motion',
     ],
-    github: 'https://github.com/deepakpatil26/koovs-Website-Clone',
-    demo: 'https://koolz.vercel.app/',
+    github: 'https://github.com/deepakpatil26/code-clarity-app',
+    demo: 'https://code-clarity-pro.vercel.app/',
   },
 
   {
@@ -85,7 +50,7 @@ export const projects = [
     title: 'CodeAssist AI: A VS Code Pair Programmer Extension',
     description:
       'An intelligent VS Code extension that brings an AI pair programmer directly into your editor. Features context-aware chat with file attachments (@-mentions), inline code suggestions, and a modern web-based UI built with Next.js running inside a VS Code webview.',
-    image: '/codeassist-ai.png',
+    image: '/CodeAssist/codeassist-ai.png',
     techStack: [
       'VS Code API',
       'Next.js',
@@ -98,6 +63,23 @@ export const projects = [
     demo: 'https://codeassist-chat-app.vercel.app/',
   },
   {
+    title: 'StudyBuddy AI - AI-Powered Study Assistant',
+    description:
+      'An AI-powered study assistant that helps students with personalized learning experiences, including flashcards, quizzes, and study plans.',
+    image: 'study-buddy-ai/study-buddy-ai.png',
+    techStack: [
+      'React',
+      'Vite',
+      'TypeScript',
+      'Tailwind CSS',
+      'OpenAI API',
+      'Firebase Authentication + Firestore',
+      'Vercel AI SDK',
+    ],
+    github: 'https://github.com/deepakpatil26/study-boost',
+    demo: 'https://study-boost-delta.vercel.app/',
+  },
+  {
     title: 'Recipe App',
     description:
       '🍳 A modern recipe discovery app built with React and Spoonacular API. Features cuisine filtering, recipe search, and detailed cooking instructions. Responsive design for all devices.',
@@ -105,5 +87,22 @@ export const projects = [
     techStack: ['React', 'JavaScript', 'HTML', 'Tailwind CSS'],
     github: 'https://github.com/deepakpatil26/react-recipe-app',
     demo: 'https://deepakpatil26.github.io/react-recipe-app/',
+  },
+  {
+    title: '🛒 Full-Stack E-Commerce Management System',
+    description:
+      'A comprehensive e-commerce management solution featuring a powerful admin dashboard for inventory management, CRUD operations, and real-time data visualization. Built for scalability and performance.',
+    image: '/E-Commerce-Management-System/LifeStyleStores.png',
+    techStack: [
+      'React',
+      'Redux Toolkit',
+      'TypeScript',
+      'Node.js',
+      'PostgreSQL',
+      'Supabase',
+      'Tailwind CSS',
+    ],
+    github: 'https://github.com/deepakpatil26/spiffy-farm-6274',
+    demo: 'https://spiffy-farm-6274.vercel.app/',
   },
 ];

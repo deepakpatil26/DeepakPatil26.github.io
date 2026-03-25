@@ -8,7 +8,13 @@ interface SkillCardProps {
 const SkillCard: React.FC<SkillCardProps> = ({ name, image }) => {
   return (
     <div className="skills-card flex flex-col items-center p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
-      <img src={image} alt={name} className="skills-card-img w-16 h-16 mb-4" />
+      <img
+        src={image}
+        alt={name}
+        className={`skills-card-img w-16 h-16 mb-4 ${
+          ["Express", "OpenAI", "LangChain"].includes(name) ? "dark:invert" : ""
+        }`}
+      />
       <h3 className="skills-card-name text-lg font-medium text-gray-900 dark:text-white">
         {name}
       </h3>

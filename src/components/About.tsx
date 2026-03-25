@@ -1,5 +1,3 @@
-import React from "react";
-
 const About = () => {
   return (
     <section
@@ -12,20 +10,25 @@ const About = () => {
         </h2>
         <div className="prose prose-lg mx-auto">
           <p className="text-gray-600 dark:text-gray-300">
-            I'm a passionate Full Stack Developer with expertise in React,
-            Node.js, Express, and MongoDB. My journey in web development started
-            2 years ago, and since then, I've been constantly learning and
-            improving my skills in modern web technologies.
+            I'm a dedicated Software Engineer and AI-Enabled Full Stack
+            Developer with a strong foundation in the MERN stack and a growing
+            focus on Generative AI. Over the past 2 years, I've transformed my
+            passion for technology into a successful freelance career,
+            delivering 15+ production-ready web applications to satisfied
+            clients.
           </p>
           <p className="text-gray-600 dark:text-gray-300 mt-4">
-            I specialize in building scalable web applications using the MERN
-            stack. My experience includes working with TypeScript, Redux,
-            Next.js, and various other modern tools and frameworks.
+            I specialize in building intelligent, scalable solutions using
+            React, TypeScript, Node.js, and cutting-edge AI technologies like
+            OpenAI API, RAG (Retrieval-Augmented Generation), and Qdrant. My
+            approach combines robust architecture with intuitive user
+            experiences.
           </p>
           <p className="text-gray-600 dark:text-gray-300 mt-4">
-            When I'm not coding, I contribute to open-source projects. I believe
-            in writing clean, maintainable code and following best practices in
-            software development.
+            Beyond coding, I'm an active contributor to open-source and
+            constantly exploring the frontier of AI to build tools that matter.
+            I'm committed to writing clean, maintainable code and staying ahead
+            of the curve in the rapidly evolving tech landscape.
           </p>
         </div>
       </div>

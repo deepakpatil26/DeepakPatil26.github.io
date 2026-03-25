@@ -48,7 +48,7 @@ export const Navbar = () => {
                 Contact
               </a>
               <a
-                href='/Deepak_Resume.pdf'
+                href='https://drive.google.com/file/d/1tpWYzZKozomn3lQS50iWP08Modl1Ayyg/view?usp=sharing'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='nav-link resume bg-blue-600 dark:bg-blue-500 text-white px-4 py-2 rounded-md hover:opacity-90'

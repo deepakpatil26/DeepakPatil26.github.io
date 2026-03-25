@@ -1,24 +1,23 @@
-# 🚀 Personal Portfolio Website
+# 🚀 AI-Enabled Full Stack Portfolio | Deepak Patil
 
 ## 📋 Overview
 
-This is a cutting-edge personal portfolio website crafted with modern web technologies, showcasing my skills, projects, and professional journey. Built using React and Vite, it represents a performant and dynamic representation of my work.
+This is a cutting-edge personal portfolio website rebranded for the AI era. It showcases my transition from a traditional Full Stack Developer to an **AI-Enabled Software Engineer**, highlighting my expertise in building intelligent applications using Generative AI, RAG (Retrieval-Augmented Generation), and modern cloud architectures.
 
 ## 🌟 Key Features
 
-- **Modern Technology Stack**: Developed with React and Vite for blazing-fast performance
-- **Responsive Design**: Seamlessly adapts to all device sizes and screen resolutions
-- **Smooth Animations**: Elegant transitions and interactive elements
-- **Clean, Minimalist UI**: Focusing on content and user experience
+- **AI-Focused Showcase**: Dedicated sections for intelligent applications like DocuNova and CodeClarity Pro.
+- **Modern Technology Stack**: Built with **React 18**, **Vite**, and **TypeScript** for maximum performance.
+- **AI Integration**: Features implementations of **OpenAI**, **Gemini AI**, and **LangChain**.
+- **Responsive & Mobile-First**: Optimized for a perfect experience across all devices and screen sizes.
+- **Glassmorphic UI**: Sleek, modern design with support for both Light and Dark modes.
 
 ## 🛠 Technologies Used
 
-- React.js
-- Vite
-- JavaScript (ES6+)
-- HTML5
-- CSS3
-- Responsive Design Principles
+- **Frontend**: React, TypeScript, Tailwind CSS, Framer Motion, Lucide React
+- **AI/ML**: OpenAI API, Gemini API, LangChain, RAG Architecture
+- **Backend/DB**: Node.js, PostgreSQL, Supabase, Firebase, Qdrant (Vector DB)
+- **Tools**: Vite, Git, GitHub Actions, EmailJS
 
 ## 🚀 Getting Started
 
@@ -67,11 +66,10 @@ Optimized files will be generated in the `dist` folder, ready for deployment.
 
 ## 🌐 Deployment
 
-Recommended platforms for deployment:
+The portfolio is automatically deployed to **GitHub Pages** via GitHub Actions.
 
-- Netlify
-- Vercel
-- GitHub Pages
+- **URL**: [https://deepakpatil26.github.io/](https://deepakpatil26.github.io/)
+- **CI/CD**: Managed through `.github/workflows/deploy.yml`
 
 ## 📸 Screenshots
 

@@ -1,4 +1,3 @@
-import React from "react";
 import { Navbar } from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -7,6 +6,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { GitHubStats } from "./components/github";
 import { ThemeProvider } from "./context/ThemeContext";
+import { BackToTop } from "./components/BackToTop";
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
           <GitHubStats username="deepakpatil26" />
           <Contact />
         </main>
+        <BackToTop />
       </div>
     </ThemeProvider>
   );

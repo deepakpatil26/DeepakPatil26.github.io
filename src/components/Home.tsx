@@ -7,22 +7,22 @@ const Home = () => {
       className='min-h-screen pt-16 flex items-center'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-12 items-center'>
-          <div>
+          <div className='text-center md:text-left'>
             <h1
               id='user-detail-name'
               className='text-4xl font-bold text-gray-900 dark:text-white mb-4'>
-              Deepak Dilip Patil
+              Deepak Patil
             </h1>
             <p
               id='user-detail-intro'
               className='text-xl text-gray-600 dark:text-gray-300 mb-8'>
-              Full Stack Developer specializing in MERN stack with a passion for
-              creating beautiful, responsive web applications. Experienced in
-              React, Node.js, and modern web technologies.
+              Software Engineer | AI-Enabled Full Stack Developer specializing in
+              building intelligent web applications with React, Node.js, and
+              Generative AI.
             </p>
-            <div className='flex space-x-4 mb-8'>
+            <div className='flex flex-wrap justify-center md:justify-start gap-4 mb-8'>
               <a
-                href='https://drive.google.com/file/d/1WWocTixdeWLw55UyYjcK9ajGnh5oSuUa/view?usp=sharing'
+                href='https://drive.google.com/file/d/1tpWYzZKozomn3lQS50iWP08Modl1Ayyg/view?usp=sharing'
                 target='_blank'
                 rel='noopener noreferrer'
                 id='resume-link-2'
@@ -30,7 +30,7 @@ const Home = () => {
                 Download Resume
               </a>
             </div>
-            <div className='flex space-x-6'>
+            <div className='flex justify-center md:justify-start space-x-6'>
               <a
                 href='https://github.com/deepakpatil26'
                 id='contact-github'

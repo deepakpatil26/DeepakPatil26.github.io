@@ -30,6 +30,39 @@ export const skillsList = [
       'https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg',
   },
   {
+    name: 'Python',
+    image:
+      'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg',
+  },
+  {
+    name: 'PostgreSQL',
+    image:
+      'https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg',
+  },
+  {
+    name: 'Supabase',
+    image:
+      'https://raw.githubusercontent.com/devicons/devicon/master/icons/supabase/supabase-original.svg',
+  },
+  {
+    name: 'OpenAI',
+    image: 'https://cdn.worldvectorlogo.com/logos/openai-2.svg',
+  },
+  {
+    name: 'Firebase',
+    image:
+      'https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg',
+  },
+  {
+    name: 'Gemini AI',
+    image:
+      'https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-gemini-icon.png',
+  },
+  {
+    name: 'LangChain',
+    image: 'https://cdn.simpleicons.org/langchain',
+  },
+  {
     name: 'HTML5',
     image:
       'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg',
