@@ -66,8 +66,6 @@ Optimized files will be generated in the `dist` folder, ready for deployment.
 
 ## 🌐 Deployment
 
-## 🌐 Deployment
-
 The portfolio is deployed to **GitHub Pages**.
 
 - **URL**: [https://deepakpatil26.github.io/](https://deepakpatil26.github.io/)
