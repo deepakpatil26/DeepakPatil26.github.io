@@ -37,7 +37,7 @@ This is a cutting-edge personal portfolio website rebranded for the AI era. It s
 2. Navigate to the project directory:
 
 ```bash
-   cd your-portfolio
+   cd DeepakPatil26.github.io
 ```
 
 3. Install dependencies:
