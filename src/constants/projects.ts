@@ -1,5 +1,37 @@
 export const projects = [
   {
+    title: 'OmniAudit-AI: Autonomous E-commerce Compliance Agent',
+    description:
+      'OmniAudit AI is an autonomous e-commerce compliance agent leveraging multimodal LLMs to detect greenwashing and automate legal audits across global regulations.',
+    image: '/OmniAudit-AI/omni-audit.png',
+    techStack: [
+      'TypeScript',
+      'Node.js',
+      'LLMs',
+      'Multimodal Reasoning',
+      'Vercel',
+    ],
+    github: 'https://github.com/deepakpatil26/OmniAudit-AI',
+    demo: '',
+  },
+  {
+    title: 'CodeClarity Pro: AI-Powered Code Analysis',
+    description:
+      'Advanced AI-powered code analysis tool that understands context, identifies bugs, and suggests modern best practices. Features real-time feedback and security audits.',
+    image: '/CodeClarity-Pro/homepage.png',
+    techStack: [
+      'Next.js 15',
+      'Genkit',
+      'Groq LPU™',
+      'Firebase',
+      'Redis (BullMQ)',
+      'Tailwind CSS',
+      'Framer Motion',
+    ],
+    github: 'https://github.com/deepakpatil26/code-clarity-app',
+    demo: 'https://code-clarity-pro.vercel.app/',
+  },
+  {
     title: 'DocuNova 🚀 Intelligent RAG-Powered Knowledge Assistant',
     description:
       'DocuNova is a high-performance, enterprise-ready RAG (Retrieval-Augmented Generation) assistant that transforms your static documents into an interactive knowledge base. Ask questions, get grounded answers with citations, and manage your usage with a sleek, modern interface.',
@@ -19,24 +51,6 @@ export const projects = [
     github: 'https://github.com/deepakpatil26/docunova',
     demo: 'https://docu-nova.vercel.app/',
   },
-  {
-    title: 'CodeClarity Pro: AI-Powered Code Analysis',
-    description:
-      'Advanced AI-powered code analysis tool that understands context, identifies bugs, and suggests modern best practices. Features real-time feedback and security audits.',
-    image: '/CodeClarity-Pro/homepage.png',
-    techStack: [
-      'Next.js 15',
-      'Genkit',
-      'Groq LPU™',
-      'Firebase',
-      'Redis (BullMQ)',
-      'Tailwind CSS',
-      'Framer Motion',
-    ],
-    github: 'https://github.com/deepakpatil26/code-clarity-app',
-    demo: 'https://code-clarity-pro.vercel.app/',
-  },
-
   {
     title: 'FocusFlow: Pomodoro & Distraction Blocker with Session Analytics',
     description:
@@ -79,30 +93,5 @@ export const projects = [
     github: 'https://github.com/deepakpatil26/study-boost',
     demo: 'https://study-boost-delta.vercel.app/',
   },
-  {
-    title: 'Recipe App',
-    description:
-      '🍳 A modern recipe discovery app built with React and Spoonacular API. Features cuisine filtering, recipe search, and detailed cooking instructions. Responsive design for all devices.',
-    image: 'recipe-app/recipe-home.png',
-    techStack: ['React', 'JavaScript', 'HTML', 'Tailwind CSS'],
-    github: 'https://github.com/deepakpatil26/react-recipe-app',
-    demo: 'https://deepakpatil26.github.io/react-recipe-app/',
-  },
-  {
-    title: '🛒 Full-Stack E-Commerce Management System',
-    description:
-      'A comprehensive e-commerce management solution featuring a powerful admin dashboard for inventory management, CRUD operations, and real-time data visualization. Built for scalability and performance.',
-    image: '/E-Commerce-Management-System/LifeStyleStores.png',
-    techStack: [
-      'React',
-      'Redux Toolkit',
-      'TypeScript',
-      'Node.js',
-      'PostgreSQL',
-      'Supabase',
-      'Tailwind CSS',
-    ],
-    github: 'https://github.com/deepakpatil26/spiffy-farm-6274',
-    demo: 'https://spiffy-farm-6274.vercel.app/',
-  },
+  // E-Commerce Management System removed from main showcase per request
 ];
